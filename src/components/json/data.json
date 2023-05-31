@@ -1,0 +1,9 @@
+[
+    {"id":1, "titulo":"Oversize", "descripcion":"Buzo oversize con estilo Urbano", "imagen":"https://i.pinimg.com/564x/62/cd/ce/62cdcef3a613497e78899df82972390e.jpg", "precio":2500, "categoria":"mujer", "stock":10},
+    {"id":2, "titulo":"Urban Style", "descripcion":"Buzo oversize femenino", "imagen":"https://i.pinimg.com/564x/3b/e4/f6/3be4f602345fee92a3d4de675ab1680b.jpg", "precio":2999, "categoria":"mujer", "stock":8},
+    {"id":4, "titulo":"No Bad Vibes", "descripcion":"Buzo con corte rectos estilo oversize", "imagen":"https://i.pinimg.com/564x/ac/f1/62/acf16271d50dd34f40cd1e7ba75def0d.jpg", "precio":999, "categoria":"mujer", "stock":9},
+    {"id":5, "titulo":"Rose Style", "descripcion":"Buzo para hombre", "imagen":"https://i.pinimg.com/564x/c3/f2/12/c3f212ed9412108d72d518d68d88a267.jpg", "precio":1999, "categoria":"hombre", "stock":6},
+    {"id":6, "titulo":"Burn", "descripcion":"Buzo para hombre", "imagen":"https://i.pinimg.com/564x/82/ab/8b/82ab8bb070b1ee542786f96a7d8f08fa.jpg", "precio":20999, "categoria":"hombre", "stock":8},
+    {"id":8, "titulo":"Chicago Style", "descripcion":"Buzo con estampado de ambos lados", "imagen":"https://i.pinimg.com/564x/0a/f0/82/0af0822baad66d428ebb1e799e44bddb.jpg", "precio":2099, "categoria":"hombre", "stock":10},
+    {"id":9, "titulo":"Outside the Box", "descripcion":"Buzo oversize con estampado y dobles en mangas", "imagen":"https://i.pinimg.com/564x/e3/b7/d8/e3b7d804653681c822737c15d546b037.jpg", "precio":32499, "categoria":"destacado", "stock":9}
+]

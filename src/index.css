@@ -1,0 +1,41 @@
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.headerSyle{
+
+ padding-top: 10px;
+ padding-right: 15px;
+}
+button{
+  max-height: 35px;
+  margin-top: 5px;
+}
+.item{
+
+  margin-top: 100px;
+}
+
+.shadow:hover {
+  box-shadow: 13px 6px 28px 2px rgba(0,0,0,0.1);
+  cursor: pointer;
+}
+.imgSize{
+  max-height:270px ;
+}
+.card-body{
+  min-height: 170px;
+  max-height: 170px;
+}
