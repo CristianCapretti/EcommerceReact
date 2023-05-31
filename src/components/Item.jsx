@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 const Item = ({ producto }) => {
     const styleDiv={
@@ -11,7 +12,9 @@ const Item = ({ producto }) => {
                     <h5 className="card-title text-center">{producto.titulo}</h5>
                     <p className="card-text text-center">{producto.descripcion}</p>
                     <div className="text-center">
-                        <button type="button " className="btn btn-dark">Ver mas</button>
+                        <Link to={"/item/"+producto.id}>
+                            <button type="button " className="btn btn-dark">Ver mas</button>
+                        </Link>    
                     </div>                    
                 </div>
             </div>
