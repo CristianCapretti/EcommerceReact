@@ -1,5 +1,4 @@
 import CartWidget from "./CartWidget"
-import User from "./User"
 import { Link } from "react-router-dom";
 const NavBar=()=>{
 
@@ -17,9 +16,6 @@ const NavBar=()=>{
                 </li>
             </ul>
             <ul className="navbar-nav flex-row flex-wrap ">
-                <li className=" nav-item ms-3">
-                    <User />
-                </li>
                 <li className="nav-item ms-3 me-3">
                    <CartWidget />
                  </li>
