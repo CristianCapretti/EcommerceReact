@@ -7,10 +7,8 @@ const Sales=()=>{
         color:'White' 
     }
     return(
-        <div className="text-center bg-dark bg-gradient ">
-             
-                <p className="text-light py-2"> Hoy <span className="text-danger fw-bold">20% Off  </span>en nuestras prendas destacadas<NavLink to={"/category/destacado"} style={style} className="fw-bold">  click aqui </NavLink></p>
-            
+        <div className="text-center bg-dark ">
+                <p className="text-light "> Hoy <span className="text-danger fw-bold">20% Off  </span>en nuestras prendas destacadas<NavLink to={"/category/destacado"} style={style} className="fw-bold">  click aqui </NavLink></p>   
         </div>
     )
 

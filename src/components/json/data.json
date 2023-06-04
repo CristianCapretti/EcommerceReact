@@ -3,7 +3,15 @@
     {"id":2, "titulo":"Urban Style", "descripcion":"Buzo oversize femenino", "imagen":"https://i.pinimg.com/564x/3b/e4/f6/3be4f602345fee92a3d4de675ab1680b.jpg", "precio":2999, "categoria":"mujer", "stock":8},
     {"id":4, "titulo":"No Bad Vibes", "descripcion":"Buzo con corte rectos estilo oversize", "imagen":"https://i.pinimg.com/564x/ac/f1/62/acf16271d50dd34f40cd1e7ba75def0d.jpg", "precio":999, "categoria":"mujer", "stock":9},
     {"id":5, "titulo":"Rose Style", "descripcion":"Buzo para hombre", "imagen":"https://i.pinimg.com/564x/c3/f2/12/c3f212ed9412108d72d518d68d88a267.jpg", "precio":1999, "categoria":"hombre", "stock":6},
-    {"id":6, "titulo":"Burn", "descripcion":"Buzo para hombre", "imagen":"https://i.pinimg.com/564x/82/ab/8b/82ab8bb070b1ee542786f96a7d8f08fa.jpg", "precio":20999, "categoria":"hombre", "stock":8},
-    {"id":8, "titulo":"Chicago Style", "descripcion":"Buzo con estampado de ambos lados", "imagen":"https://i.pinimg.com/564x/0a/f0/82/0af0822baad66d428ebb1e799e44bddb.jpg", "precio":2099, "categoria":"hombre", "stock":10},
-    {"id":9, "titulo":"Outside the Box", "descripcion":"Buzo oversize con estampado y dobles en mangas", "imagen":"https://i.pinimg.com/564x/e3/b7/d8/e3b7d804653681c822737c15d546b037.jpg", "precio":32499, "categoria":"destacado", "stock":9}
+    {"id":6, "titulo":"Tokyo", "descripcion":"Buzo para hombre", "imagen":"https://i.pinimg.com/564x/13/81/10/138110476435b8616d94ec2e19145c3e.jpg", "precio":20999, "categoria":"hombre", "stock":8},
+    {"id":8, "titulo":"Chicago Style", "descripcion":"Buzo con estampado de ambos lados", "imagen":"https://i.pinimg.com/564x/0a/f0/82/0af0822baad66d428ebb1e799e44bddb.jpg", "precio":2099, "categoria":"mujer", "stock":10},
+    {"id":9, "titulo":"Outside the Box", "descripcion":"Buzo oversize con estampado y dobles en mangas", "imagen":"https://i.pinimg.com/564x/e3/b7/d8/e3b7d804653681c822737c15d546b037.jpg", "precio":32499, "categoria":"hombre", "stock":9},
+    {"id":10, "titulo":"2020", "descripcion":"Buzo oversize con estampado y dobles en mangas", "imagen":"https://i.pinimg.com/564x/a4/7e/b3/a47eb3ac2436d14f0922b4c7882247d6.jpg", "precio":12499, "categoria":"hombre", "stock":9},
+    {"id":11, "titulo":"Peace", "descripcion":"Buzo oversize con estampado y dobles en mangas", "imagen":"https://i.pinimg.com/564x/a6/0f/0b/a60f0bc22fe23fc9072722398c4a11cc.jpg", "precio":12499, "categoria":"destacado", "stock":9},
+    {"id":12, "titulo":"Draw", "descripcion":"Buzo oversize con estampado y dobles en mangas", "imagen":"https://i.pinimg.com/564x/e4/4a/38/e44a38db81220f15b69428ef0b323c58.jpg", "precio":12499, "categoria":"destacado", "stock":9},
+    {"id":13, "titulo":"Red Style", "descripcion":"Estampado red Syle", "imagen":"https://i.pinimg.com/564x/50/11/8e/50118e523bfca4b2f251bed205ac8c5f.jpg", "precio":12499, "categoria":"destacado", "stock":9},
+    {"id":14, "titulo":"Poison", "descripcion":"Estampado Poison", "imagen":"https://i.pinimg.com/564x/9a/74/d2/9a74d2653d6096ac93b9f31a93f507a7.jpg", "precio":12499, "categoria":"destacado", "stock":9}
+    
+
+    
 ]
