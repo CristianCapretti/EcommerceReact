@@ -28,9 +28,8 @@ button{
   margin-top: 100px;
 }
 
-.shadow:hover {
+.shadow {
   box-shadow: 13px 6px 28px 2px rgba(0,0,0,0.1);
-  cursor: pointer;
 }
 .imgSize{
   max-height:270px ;
@@ -40,5 +39,46 @@ button{
   max-height: 170px;
 }
 .linkSinSubrallar{
-  text-decoration: 'none' ;
+  text-decoration: none ;
 }
+.linkSinSubrallar:hover{
+
+  border-bottom: 3px solid black;
+  transition: border-bottom 0.2s ease-in-out ;
+}
+.render{
+  height: 487.5px ;
+}
+.background-container {
+  position: relative;
+  width: 100%;
+  height: 350px; 
+  background-image: url('https://i.pinimg.com/originals/01/88/96/018896bc813ec5609908cf575e039a01.gif');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+
+}
+
+.background-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(79, 75, 75);
+  opacity: 0.5; 
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+}
+.bannerBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
