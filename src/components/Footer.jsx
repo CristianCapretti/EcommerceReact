@@ -4,12 +4,12 @@ import { Link } from "react-router-dom";
 const Footer=()=>{
 
     return (
-        <div>
+        <div className="mt-5">
             <div className="container-fluid text-light bg-dark py-5">
                 <div className="container">
                     <div className="row justify-content-center mb-3">
                         <div className="col-md-3">
-                            <h6 className="fw-bold">Colecciones</h6> 
+                            <h6 className="fw-bold font-monospace">Colecciones</h6> 
                             <ul className="">
                                 <li className="nav-item  ">
                                     <Link className="nav-Link text-light ms-3 " aria-current="page" to={'/'}>Home</Link>
@@ -26,7 +26,7 @@ const Footer=()=>{
                             </ul>   
                         </div>
                         <div className="col-md-3">
-                            <h6 className="fw-bold">Ayuda</h6>  
+                            <h6 className="fw-bold font-monospace">Ayuda</h6>  
                             <ul className="">
                                 <li className="nav-item  ">
                                     <Link className="nav-Link text-light ms-3 " aria-current="page" to={'/'}>Preguntas Frecuentes</Link>
@@ -40,7 +40,7 @@ const Footer=()=>{
                             </ul>     
                         </div>
                         <div className="col-md-3">
-                            <h6 className="fw-bold">Acerca de</h6> 
+                            <h6 className="fw-bold font-monospace">Acerca de</h6> 
                             <ul className="">
                                 <li className="nav-item  ">
                                     <Link className="nav-Link text-light ms-3 " aria-current="page" to={'/'}>Quienes somos</Link>
