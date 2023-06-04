@@ -14,7 +14,7 @@ const Header=()=>{
                     <Sales />
                 </div>
                 <div className=" col-lg-12 text-center py-0 ">
-                    <h1><Link to={'/'} style={style} className="text-dark "> <img src={Logo} alt="Carrito" width={45} /> Urban Shop</Link></h1> 
+                    <h1><Link to={'/'} style={style} className="text-dark font-monospace"> <img src={Logo} alt="Carrito" width={45} /> Urban Shop</Link></h1> 
                 </div>
             </div>
             <div>
