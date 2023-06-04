@@ -1,15 +1,15 @@
 import { Link } from "react-router-dom";
 import NavBar from "./NavBar";
-import Logo from "./images/logo2.png"
+import Logo from "../images/logo2.png"
 import Sales from "./Sales";
-import User from "./User";
+
 const Header=()=>{
     const style={
         textDecoration: 'none' 
     }
     return(
         <div className="container-fluid ">
-            <div className="row  headerSyle ">
+            <div className="row headerSyle ">
                 <div className=" text-end ">
                     <Sales />
                 </div>

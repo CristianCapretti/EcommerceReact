@@ -10,43 +10,43 @@ const Footer=()=>{
                     <div className="row justify-content-center mb-3">
                         <div className="col-md-3">
                             <h6 className="fw-bold">Colecciones</h6> 
-                            <ul className="">
+                            <ul className="formatoLista textSecondary">
                                 <li className="nav-item  ">
-                                    <Link className="nav-Link text-light ms-3 " aria-current="page" to={'/'}>Home</Link>
+                                    <Link className="nav-Link text-light  text-white-50 " aria-current="page" to={'/'}>Home</Link>
                                 </li >
                                 <li className="nav-item " >
-                                    <Link className="nav-Link text-light ms-3 " aria-current="page" to={'/category/hombre'}>Hombre</Link>                                                
+                                    <Link className="nav-Link text-light  text-white-50" aria-current="page" to={'/category/hombre'}>Hombre</Link>                                                
                                 </li>
-                                <li className="nav-item  me-3 ">
-                                    <Link className="nav-Link text-light ms-3 " aria-current="page" to={'/category/mujer'}>Mujer</Link>    
+                                <li className="nav-item   ">
+                                    <Link className="nav-Link text-light  text-white-50" aria-current="page" to={'/category/mujer'}>Mujer</Link>    
                                 </li>
-                                <li className="nav-item  me-3 ">
-                                    <Link className="nav-Link text-light ms-3 " aria-current="page" to={'/category/destacado'}>Destacado</Link>    
+                                <li className="nav-item ">
+                                    <Link className="nav-Link text-light  text-white-50" aria-current="page" to={'/category/destacado'}>Destacado</Link>    
                                 </li>
                             </ul>   
                         </div>
                         <div className="col-md-3">
                             <h6 className="fw-bold">Ayuda</h6>  
-                            <ul className="">
+                            <ul className="formatoLista textSecondary">
                                 <li className="nav-item  ">
-                                    <Link className="nav-Link text-light ms-3 " aria-current="page" to={'/'}>Preguntas Frecuentes</Link>
+                                    <Link className="nav-Link text-light text-white-50" aria-current="page" to={'/'}>Preguntas Frecuentes</Link>
                                 </li >
                                 <li className="nav-item " >
-                                    <Link className="nav-Link text-light ms-3 " aria-current="page" to={'/'}>Envio Gratis</Link>                                                
+                                    <Link className="nav-Link text-light  text-white-50" aria-current="page" to={'/'}>Envio Gratis</Link>                                                
                                 </li>
-                                <li className="nav-item  me-3 ">
-                                    <Link className="nav-Link text-light ms-3 " aria-current="page" to={'/'}>Politica de cambios</Link>    
+                                <li className="nav-item ">
+                                    <Link className="nav-Link text-light  text-white-50" aria-current="page" to={'/'}>Politica de cambios</Link>    
                                 </li>
                             </ul>     
                         </div>
                         <div className="col-md-3">
                             <h6 className="fw-bold">Acerca de</h6> 
-                            <ul className="">
+                            <ul className="formatoLista textSecondary">
                                 <li className="nav-item  ">
-                                    <Link className="nav-Link text-light ms-3 " aria-current="page" to={'/'}>Quienes somos</Link>
+                                    <Link className="nav-Link text-light text-white-50 " aria-current="page" to={'/'}>Quienes somos</Link>
                                 </li >
                                 <li className="nav-item  ">
-                                    <Link className="nav-Link text-light ms-3 " aria-current="page" to={'/'}>Ubicacion</Link>
+                                    <Link className="nav-Link text-light  text-white-50" aria-current="page" to={'/'}>Ubicacion</Link>
                                 </li >
                             </ul>        
                         </div>
