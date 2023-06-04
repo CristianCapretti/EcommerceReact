@@ -1,4 +1,4 @@
-import UserPerfile from './images/User.svg'
+import UserPerfile from '../images/User.svg'
 const User=()=>{
 return(
     <div>

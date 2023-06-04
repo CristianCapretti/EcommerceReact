@@ -1,4 +1,4 @@
-import Image from '../components/images/heart-circle-outline.svg'
+import Image from '../images/heart-circle-outline.svg'
 const Favorite=()=>
 {
     return (
