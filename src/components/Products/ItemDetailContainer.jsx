@@ -1,23 +1,29 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import Data from "../json/data.json" 
+import { getFirestore, doc, getDoc} from "firebase/firestore";
+import Spinner from "../Spinner";
+
 import ItemDetail from "./ItemDetail";
 
 const ItemDetailContainer= ()=>
 {
+    const [item, setItem] = useState([]);
+    const [carga, setCarga] = useState(true);
     const {id}=useParams();
-    const [data, setData]=useState({});
-    useEffect(()=>{
-        const promesa= new Promise((resolve)=>{
-            resolve(Data.find(producto=> producto.id===parseInt(id)))
-        }) 
-        promesa.then(data=> {setData(data)})   
-    },[id])
+    
+    useEffect(() => {
+        const db = getFirestore();
+        const producto = doc(db, "Item", id);
+        getDoc(producto).then(resultado => {
+            setItem({id:resultado.id, ...resultado.data()});
+            setCarga(false);
+        });
+    }, [id])
     
     return (
 
         <div>
-            < ItemDetail item={data}/>
+            {carga ? <Spinner /> :  < ItemDetail item={item}/>}
         </div>
     )
 }

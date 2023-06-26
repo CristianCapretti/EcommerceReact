@@ -1,28 +1,37 @@
 import { useEffect, useState } from "react";
-import Item from "./Item";
-import Productos from "../json/data.json"
+import ItemList from "./ItemList";
 import { useParams } from "react-router-dom";
+import Spinner from "../Spinner";
+import { getFirestore, collection, getDocs, where, query } from "firebase/firestore";
 
 const ItemListContainer = () => {
-    const {id}=useParams();
-    const [data, SetData]=useState([]);
+    const [items, setItems] = useState([]);
+    const [carga, setCarga] = useState(true);
+    const {id} = useParams();
     
-    useEffect(()=>{
-        const promesa = new Promise((resolve) => {
-        resolve(id? Productos.filter(item => item.categoria===id):Productos)
+    useEffect(() => {
+        const db = getFirestore();
+        const itemsCollection = collection(db, "Item");
+        const q = id ? query(itemsCollection, where("categoria", "==", id)) : itemsCollection;
+        getDocs(q).then(resultado => {
+            console.log("resulr"+JSON.stringify(resultado));
+            if (resultado.size > 0) {
+                setItems(resultado.docs.map(producto => ({id:producto.id, ...producto.data()})));
+                setCarga(false);
+            } else {
+                console.error("No hay datos cargados");
+            }
         });
-        promesa.then(data => {
-            SetData(data);
-        });
-    },[id])
+    }, [id]);
 
     return (
-        <div className="row">
-        {    
-            data.map(producto => <Item key={producto.id} producto={producto} /> )                           
-            
-        } 
+
+        <div >
+            <div className="row my-3">
+                {carga ? <Spinner /> : <ItemList listaProductos={items} />}
+            </div>
         </div>
+
     )
 }
 
