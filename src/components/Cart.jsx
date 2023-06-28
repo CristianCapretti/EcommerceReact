@@ -31,7 +31,7 @@ const Cart=()=>{
                         <tbody>
                             <tr>
                                 <td colSpan={4}>&nbsp;</td>
-                                <td className="text-end"><button className="btn btn-dark" onClick={() => {clear()}} title="Vaciar Carrito">Vaciar Carrito</button></td>
+                                <td className="text-end"><button className="btn btn-dark" onClick={() => {clear()}} title="Vaciar Carrito">Vaciar Productos</button></td>
                             </tr>
                             {
                                 cart.map(item => (

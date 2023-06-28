@@ -61,7 +61,7 @@ const Checkout = () => {
                             <label className="form-label">Direccion</label>
                             <input type="text" className="form-control" onInput={(e) => {setDireccion(e.target.value)}} />
                         </div>
-                        <button type="button" className="btn btn-dark" onClick={generarOrden}>Generar Orden</button>
+                        <button type="button" className="btn btn-dark" onClick={generarOrden}>Confirmar</button>
                     </form>
                 </div>
                 <div className="col-md-5">

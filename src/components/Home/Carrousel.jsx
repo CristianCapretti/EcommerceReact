@@ -1,7 +1,7 @@
 const Carrousel=()=>{
 
     return(
-        <div className="mb-3">
+        <div className="mb-5">
             <div id="carouselExampleRide" className="carousel slide" data-bs-ride="true">
                 <div className="carousel-inner">
                     

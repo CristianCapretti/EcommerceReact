@@ -1,6 +1,7 @@
 
 import Banner from "./Banner";
 import Carrousel from "./Carrousel"
+import Colecciones from "./Colecciones";
 import ExclusiveSales from "./ExclusiveSales";
 
 const Home=()=>{
@@ -9,7 +10,9 @@ const Home=()=>{
         <div>
             <Banner />
             <Carrousel />
+            <Colecciones/>
             <ExclusiveSales/>
+           
         </div>
     )
 

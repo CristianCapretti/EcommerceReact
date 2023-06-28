@@ -133,3 +133,65 @@ button{
   background-color: #d1e7dd;
 
 }
+
+.coleccionHombre, .coleccionMujer  {
+  position: relative;
+  height: 650px;
+  background-image: url('./components/images/RopaHombre.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.coleccionMujer{
+  background-image: url('./components/images/Mujer2.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.coleccionHombre::before,
+.coleccionMujer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(4px);
+  opacity: 0;
+  transition: opacity 0.19s ease-in-out;
+}
+
+.coleccionHombre:hover::before,
+.coleccionMujer:hover::before {
+  opacity: 1;
+}
+
+.coleccionHombre:hover .btnEfect,
+.coleccionMujer:hover .btnEfect {
+  display: flex;
+}
+
+.btnEfect {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #000;
+  color: #fff;
+  padding: 10px 20px;
+  font-weight: bold;
+  font-family: monospace;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.coleccionHombre:hover .btnEfect, 
+.coleccionMujer:hover .btnEfect {
+  opacity: 1;
+  cursor: pointer;
+}
+
+
